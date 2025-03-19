@@ -202,7 +202,7 @@ Do the same process for Notepad ++.
 Right click Firefox-Select Deployment tab-Click "Uninstall this application when it falls out of the scop of management."-Click Apply-Click OK.
 </p>
 <p>
-This will uninstall the program if the user or pc is moved to a different OU, the policy is deleted, or the GPO is removed.
+This will uninstall the program if the user or pc is moved to a different OU(Organizational Unit), the policy is deleted, or the GPO is removed.
 Do the same process for Notepad ++.
 </p>
 
