@@ -102,7 +102,7 @@ Change Permission Level to Read/Write-Click Share.
 <img src="https://github.com/user-attachments/assets/4658fed1-c917-4043-afb6-3474b1c60490" height="50%" width="50%"/>
 </p>
 <p>
-Go to Server Manager-Tools-Group Policy Management
+Go to Server Manager-Tools-Group Policy Management.
 </p>
 <p>
 <img src="https://github.com/user-attachments/assets/57b7e676-2b4f-457d-899c-fa49d099cc24" height="50%" width="50%"/>
@@ -115,7 +115,7 @@ Right click mydomain.com. Select "Create a GPO in this domain, and Link it here.
 <img src="https://github.com/user-attachments/assets/0a25af92-21bc-48a9-8cca-8baa54b1554b" height="50%" width="50%"/>
 </p>
 <p>
-Name the new GP "software_deployment". Click OK
+Name the new GP "software_deployment". Click OK.
 </p>
 
 <p>
@@ -174,7 +174,7 @@ Follow the same steps to add Notepad ++ to the Software installation GPO list.
 <img src="https://github.com/user-attachments/assets/c4a684a8-4a25-4518-b8b0-0e44f3445182" height="50%" width="50%"/>
 </p>
 <p>
-Firefox will now be in the Software Installation Policy
+Firefox will now be in the Software Installation Policy.
 </p>
 
 <p>
