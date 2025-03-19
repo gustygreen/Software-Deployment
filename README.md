@@ -54,7 +54,7 @@ Login as a user and verify that there is no installed Mozilla Firefox or Notepad
 
 <h3>Software Installation Process</h3>
 <p>
-<img src="https://github.com/user-attachments/assets/c4a684a8-4a25-4518-b8b0-0e44f3445182" height="50%" width="50%"/>
+<img src="https://github.com/user-attachments/assets/4658fed1-c917-4043-afb6-3474b1c60490" height="50%" width="50%"/>
 </p>
 <p>
 Go to Server Manager-Tools-Group Policy Management
@@ -63,8 +63,65 @@ Go to Server Manager-Tools-Group Policy Management
 <img src="https://github.com/user-attachments/assets/c4a684a8-4a25-4518-b8b0-0e44f3445182" height="50%" width="50%"/>
 </p>
 <p>
-Go to Server Manager-Tools-Group Policy Management
+Right click mydomain.com. Select "Create a GPO in this domain, and Link it here..."
 </p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/0a25af92-21bc-48a9-8cca-8baa54b1554b" height="50%" width="50%"/>
+</p>
+<p>
+Name the new GP "software_deployment". Click OK
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/8d8f68a4-90ff-43c9-89fc-bf03e50b0b8e" height="50%" width="50%"/>
+</p>
+<p>
+Right click the new software_deployment policy and select Edit.
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/dccd9b33-aaee-41ec-816c-eb3a7b7e9f47" height="50%" width="50%"/>
+</p>
+<p>
+Expand Computer Configuratio-Expan Policies-Expand Software Setting-Right click Software installation-Select New-Select Package.
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/600e1494-043b-4741-8f24-77e8a0e6d4c3" height="50%" width="50%"/>
+</p>
+<p>
+Select the shared folder for Software Deployment(\\dc-1\Software Deployment). Click Open.
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/ed05f297-dfbe-4d84-8f17-e72505d53cdc" height="50%" width="50%"/>
+</p>
+<p>
+Select the Firefox Setup MSI. Click Open.
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/272a2404-a7a7-4722-9df2-cd031e97be76" height="50%" width="50%"/>
+</p>
+<p>
+Click Assigned. Click OK.
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/9366b8bd-683d-4633-98cf-7daf9221caff" height="50%" width="50%"/>
+</p>
+<p>
+Mozilla Firefox will now be listed in the Software installation GPO.
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/01228ce7-0953-4204-af04-27603f5595a8" height="50%" width="50%"/>
+</p>
+<p>
+Follow the same steps to add Notepad ++ to the Software installation GPO list.
+</p>
+
 
 <p>
 <img src="https://github.com/user-attachments/assets/b006d3a1-0295-446a-b7e5-b4772799d0a8" height="50%" width="50%"/>
