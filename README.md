@@ -140,38 +140,43 @@ Firefox will now be in the Software Installation Policy
 Do the same steps to add Notepad ++. Both programs should now be in the Groups Software Installation folder.
 </p>
 
+<p>
+ <img src="https://github.com/user-attachments/assets/91d783d6-ae52-47a3-bf09-d9edf8dc86c2"  height="50%" width="50%"/>
+</p>
+<p> 
+Right click Firefox-Select Deployment tab-Click "Uninstall this application when it falls out of the scop of management."-Click Apply-Click OK.
+</p>
+<p>
+This will uninstall the program if the user or pc is moved to a different OU, the policy is deleted, or the GPO is removed.
+Do the same process for Notepad ++.
+</p>
+
+<p>
+ <img src="https://github.com/user-attachments/assets/91d783d6-ae52-47a3-bf09-d9edf8dc86c2"  height="50%" width="50%"/>
+</p>
+<p> 
+Right click Firefox-Select Deployment tab-Click "Uninstall this application when it falls out of the scop of management."-Click Apply-Click OK.
+</p>
+<p>
+This will uninstall the program if the user or pc is moved to a different OU, the policy is deleted, or the GPO is removed.
+Do the same process for Notepad ++.
+</p>
+
+
 <h3>Install to client-1</h3>
-<p>
- <img src="https://github.com/user-attachments/assets/e429dd6f-341e-4635-a31e-cb121b7ee64d"  height="50%" width="50%"/>
-</p>
-<p> 
-Right click on the software(Firefox)-Select Deployment tab-Check Install this application at logon. Select Basic under Installation user interface options. Click Apply, OK.
-</p>
-<p>
- <img src="https://github.com/user-attachments/assets/64c9458b-3cdb-4912-8330-51b98be90dd0"  height="50%" width="50%"/>
-</p>
-<p> 
-Do the same for Notepad ++. Close out all windows on DC.
-</p>
 
 <p>
 <img src="https://github.com/user-attachments/assets/9fcf814a-d364-4e7c-813b-584a2ce3dbd6"  height="50%" width="50%"/>
 </p>
 <p> 
-Go to Start-Select Run. Type in "gpupdate /force". Select Enter.(This will update the Group Policy for the Domain.)
+As Admin RDP to client-1-Go to Start-Select Run. Type in "gpupdate /force". Select Enter.(This will update the Group Policy for the Domain.)
 </p>
 
 <h3>Verify software installed on client-1.</h3>
 
 <p>
- <img src="https://github.com/user-attachments/assets/e429dd6f-341e-4635-a31e-cb121b7ee64d"  height="50%" width="50%"/>
+ <img src="https://github.com/user-attachments/assets/a479815a-6f7c-4fa8-9aea-8f78f4b7c079"  height="50%" width="50%"/>
 </p>
 <p> 
-RDP onto client-1 as an employee.
-</p>
-<p>
- <img src="https://github.com/user-attachments/assets/64c9458b-3cdb-4912-8330-51b98be90dd0"  height="50%" width="50%"/>
-</p>
-<p> 
-Verify that you can now see both Mozilla Firefox and Notepad ++ as selectable apps.
+RDP into Client-1 as an Employee and verify that you can now see both Mozilla Firefox and Notepad ++ as selectable apps.
 </p>
